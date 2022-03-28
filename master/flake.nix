@@ -11,7 +11,6 @@
   inputs.src-texttospeech-master.ref   = "refs/heads/master";
   inputs.src-texttospeech-master.owner = "dom96";
   inputs.src-texttospeech-master.repo  = "texttospeech";
-  inputs.src-texttospeech-master.dir   = "";
   inputs.src-texttospeech-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
